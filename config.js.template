@@ -1,0 +1,16 @@
+// EmailJS Configuration Template
+// Copy this file to config.js and replace the placeholder values
+
+window.EMAILJS_PUBLIC_KEY = "YOUR_PUBLIC_KEY_HERE";
+window.EMAILJS_SERVICE_ID = "YOUR_SERVICE_ID_HERE";
+window.EMAILJS_TEMPLATE_ID = "YOUR_TEMPLATE_ID_HERE";
+window.CONTACT_EMAIL = "rose.rocketry@rose-hulman.edu";
+
+// Instructions:
+// 1. Copy this file: cp config.js.template config.js
+// 2. Sign up at https://www.emailjs.com/
+// 3. Create an email service (Gmail, Outlook, etc.)
+// 4. Create an email template
+// 5. Get your Public Key from Account > General
+// 6. Replace the values in config.js with your actual credentials
+// 7. The config.js file is already in .gitignore so it won't be committed

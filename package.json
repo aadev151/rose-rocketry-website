@@ -1,0 +1,33 @@
+{
+  "name": "rose-rocketry-website",
+  "version": "1.0.0",
+  "description": "Official website for Rose Rocketry club at Rose-Hulman Institute of Technology",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "dev": "npx live-server --port=3000 --open=/index.html",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "echo 'Deploy to your preferred hosting service'"
+  },
+  "keywords": [
+    "rocketry",
+    "aerospace",
+    "rose-hulman",
+    "student-organization",
+    "website"
+  ],
+  "author": "Rose Rocketry",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rose-rocketry/website.git"
+  },
+  "homepage": "https://rose-rocketry.github.io/website",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rose Rocketry - Rose-Hulman Institute of Technology</title>
+    <meta name="description" content="Rose Rocketry is a student-led organization at Rose-Hulman Institute of Technology dedicated to advancing aerospace knowledge through rocketry and space-related projects.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="config.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-rocket"></i>
+                <span>Rose Rocketry</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#join" class="nav-link">Join Us</a></li>
+                <li><a href="#sponsor" class="nav-link">Sponsor</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="stars"></div>
+            <div class="rocket-trail"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">Building Rockets,</span>
+                <span class="title-line">Building Futures</span>
+            </h1>
+            <p class="hero-subtitle">
+                Join Rose-Hulman's premier aerospace engineering club and launch your career to new heights
+            </p>
+            <div class="hero-buttons">
+                <a href="#join" class="btn btn-primary">
+                    <i class="fas fa-users"></i>
+                    Join the Team
+                </a>
+                <a href="#sponsor" class="btn btn-secondary">
+                    <i class="fas fa-handshake"></i>
+                    Sponsor Us
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Rose Rocketry</h2>
+                <p>Advancing aerospace knowledge through hands-on engineering and innovation</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Mission</h3>
+                    <p>Rose Rocketry is a student-led organization at Rose-Hulman Institute of Technology dedicated to advancing aerospace knowledge and hands-on engineering experience through rocketry and space-related projects.</p>
+                    
+                    <h3>Our Impact</h3>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">N/A</div>
+                            <div class="stat-label">Active Members</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">N/A</div>
+                            <div class="stat-label">Feet Reached (HPR)</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">3</div>
+                            <div class="stat-label">Sub-Teams</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">2020</div>
+                            <div class="stat-label">Founded</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://www.roserocketry.org/team.webp" alt="Rose Rocketry Team Photo" class="team-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Projects</h2>
+                <p>Three specialized teams working on cutting-edge aerospace projects</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3>Hobby Rocketry (HPR)</h3>
+                    <p>High-power rocketry certifications (Level 1 & 2) providing entry-level rocket-building experience for students of all skill levels.</p>
+                    <div class="project-tags">
+                        <span class="tag">Certifications</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-satellite"></i>
+                    </div>
+                    <h3>NASA Student Launch (USLI)</h3>
+                    <p>National competition designing, building, and launching high-powered rockets to 3,500–5,500 feet with payload challenges.</p>
+                    <div class="project-tags">
+                        <span class="tag">NASA Competition</span>
+                        <span class="tag">Annual Challenges</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Rose Propulsion Lab (RPL)</h3>
+                    <p>Ambitious multi-year effort to design liquid bi-propellant rocket engines and build self-landing rockets for the Collegiate Propulsive Lander Challenge.</p>
+                    <div class="project-tags">
+                        <span class="tag">4-Year Challenge</span>
+                        <span class="tag">International</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Us Section -->
+    <section id="join" class="join">
+        <div class="container">
+            <div class="section-header">
+                <h2>Join Our Team</h2>
+                <p>No experience required - learn with us and launch your aerospace career</p>
+            </div>
+            <div class="join-content">
+                <div class="join-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Attend Callout Meetings</h3>
+                            <p>Join us during freshman orientation and throughout the year for our regular meetings in the Branam Innovation Center (BIC).</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Connect on Discord</h3>
+                            <p>Join our Discord server to stay updated on meetings, projects, and connect with team members.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Choose Your Team</h3>
+                            <p>Explore our three sub-teams and find the project that excites you most. No prior experience needed!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="join-benefits">
+                    <h3>What You'll Gain</h3>
+                    <ul class="benefits-list">
+                        <li><i class="fas fa-check"></i> Engineering design and project management skills</li>
+                        <li><i class="fas fa-check"></i> Hands-on experience with cutting-edge technology</li>
+                        <li><i class="fas fa-check"></i> Professional development and leadership opportunities</li>
+                        <li><i class="fas fa-check"></i> Networking with industry professionals</li>
+                        <li><i class="fas fa-check"></i> Portfolio projects for internships and jobs</li>
+                    </ul>
+                    <div class="join-cta">
+                        <a href="https://discord.gg/mdkPEfDm" target="_blank" class="btn btn-primary">
+                            <i class="fab fa-discord"></i>
+                            Get Started Today
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sponsorship Section -->
+    <section id="sponsor" class="sponsor">
+        <div class="container">
+            <div class="section-header">
+                <h2>Partner With Us</h2>
+                <p>Support the next generation of aerospace engineers and gain visibility in our growing community</p>
+            </div>
+            <div class="sponsor-content">
+                <div class="sponsor-benefits">
+                    <h3>Why Sponsor Rose Rocketry?</h3>
+                    <div class="benefits-grid">
+                        <div class="benefit-item">
+                            <i class="fas fa-eye"></i>
+                            <h4>Visibility</h4>
+                            <p>Your logo and brand featured prominently on our website, rockets, and at competitions</p>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h4>Recruiting Pipeline</h4>
+                            <p>Direct access to top-tier engineering students for internships and full-time positions</p>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-chart-line"></i>
+                            <h4>Innovation</h4>
+                            <p>Support cutting-edge research and development in aerospace technology</p>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-handshake"></i>
+                            <h4>Community Impact</h4>
+                            <p>Help develop the next generation of aerospace leaders and innovators</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="sponsorship-tiers">
+                    <h3>Sponsorship Tiers</h3>
+                    <div class="tiers-grid">
+                        <div class="tier-card">
+                            <div class="tier-header">
+                                <h4>Bronze</h4>
+                                <div class="tier-price">$500+</div>
+                            </div>
+                            <ul class="tier-features">
+                                <li>Logo on website</li>
+                                <li>Social media recognition</li>
+                                <li>Thank you in presentations</li>
+                            </ul>
+                        </div>
+                        <div class="tier-card featured">
+                            <div class="tier-header">
+                                <h4>Silver</h4>
+                                <div class="tier-price">$1,500+</div>
+                            </div>
+                            <ul class="tier-features">
+                                <li>Everything in Bronze</li>
+                                <li>Logo on rocket</li>
+                                <li>Recruiting event access</li>
+                                <li>Project updates</li>
+                            </ul>
+                        </div>
+                        <div class="tier-card">
+                            <div class="tier-header">
+                                <h4>Gold</h4>
+                                <div class="tier-price">$3,000+</div>
+                            </div>
+                            <ul class="tier-features">
+                                <li>Everything in Silver</li>
+                                <li>Naming rights to project</li>
+                                <li>Exclusive recruiting sessions</li>
+                                <li>Technical collaboration</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sponsor-cta">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-download"></i>
+                            Download Sponsorship Packet
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i>
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Ready to join our team or become a sponsor? We'd love to hear from you!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Branam Innovation Center (BIC)<br>Rose-Hulman Institute of Technology</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>rose.rocketry@rose-hulman.edu</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-users"></i>
+                        <div>
+                            <h4>Discord</h4>
+                            <p>Join our community server</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-calendar"></i>
+                        <div>
+                            <h4>Meetings</h4>
+                            <p>Weekly meetings in BIC<br>Check Discord for times</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="join">I want to join the team</option>
+                                <option value="sponsor">I'm interested in sponsoring</option>
+                                <option value="general">General inquiry</option>
+                                <option value="media">Media inquiry</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-rocket"></i>
+                    <span>Rose Rocketry</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#join">Join</a>
+                    <a href="#sponsor">Sponsor</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://discord.gg/mdkPEfDm" target="_blank" class="social-link"><i class="fab fa-discord"></i></a>
+                    <a href="https://www.youtube.com/channel/UCHiP7P0o6zLA0sIRrnwGgXA" target="_blank" class="social-link"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/rose_rocketry/" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Rose Rocketry. All rights reserved. | Rose-Hulman Institute of Technology</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
