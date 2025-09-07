@@ -397,6 +397,13 @@ section {
     font-weight: 900;
     color: var(--primary-color);
     margin-bottom: 0.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    letter-spacing: 0;
+    text-indent: 0;
 }
 
 .stat-label {
