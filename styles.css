@@ -6,7 +6,7 @@
 }
 
 :root {
-    --primary-color: #00d4ff;
+    --primary-color: #800000;
     --secondary-color: #ff6b35;
     --accent-color: #ffd700;
     --dark-bg: #0a0a0a;
@@ -15,10 +15,10 @@
     --text-primary: #ffffff;
     --text-secondary: #b0b0b0;
     --text-muted: #808080;
-    --gradient-primary: linear-gradient(135deg, #00d4ff, #0099cc);
+    --gradient-primary: linear-gradient(135deg, #800000, #660000);
     --gradient-secondary: linear-gradient(135deg, #ff6b35, #ff4500);
     --gradient-accent: linear-gradient(135deg, #ffd700, #ffb700);
-    --shadow-primary: 0 0 30px rgba(0, 212, 255, 0.3);
+    --shadow-primary: 0 0 30px rgba(128, 0, 0, 0.3);
     --shadow-secondary: 0 0 30px rgba(255, 107, 53, 0.3);
     --border-radius: 12px;
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -67,7 +67,7 @@ h3 {
     width: 100%;
     background: rgba(10, 10, 10, 0.95);
     backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(0, 212, 255, 0.2);
+    border-bottom: 1px solid rgba(128, 0, 0, 0.2);
     z-index: 1000;
     transition: var(--transition);
 }
@@ -193,7 +193,7 @@ h3 {
     right: 10%;
     width: 200px;
     height: 300px;
-    background: linear-gradient(45deg, transparent 30%, rgba(0, 212, 255, 0.1) 50%, transparent 70%);
+    background: linear-gradient(45deg, transparent 30%, rgba(128, 0, 0, 0.1) 50%, transparent 70%);
     transform: rotate(15deg);
     animation: rocketMove 8s ease-in-out infinite;
     z-index: -1;
@@ -212,7 +212,7 @@ h3 {
 
 .hero-title {
     margin-bottom: 1.5rem;
-    text-shadow: 0 0 30px rgba(0, 212, 255, 0.5);
+    text-shadow: 0 0 30px rgba(128, 0, 0, 0.5);
 }
 
 .title-line {
@@ -284,7 +284,7 @@ h3 {
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 30px rgba(0, 212, 255, 0.4);
+    box-shadow: 0 10px 30px rgba(128, 0, 0, 0.4);
 }
 
 .btn-secondary {
@@ -381,7 +381,7 @@ section {
     padding: 1.5rem;
     background: var(--card-bg);
     border-radius: var(--border-radius);
-    border: 1px solid rgba(0, 212, 255, 0.2);
+    border: 1px solid rgba(128, 0, 0, 0.2);
     transition: var(--transition);
 }
 
@@ -430,7 +430,7 @@ section {
 
 .team-photo:hover {
     transform: scale(1.02);
-    box-shadow: 0 10px 40px rgba(0, 212, 255, 0.4);
+    box-shadow: 0 10px 40px rgba(128, 0, 0, 0.4);
 }
 
 /* Projects Section */
@@ -444,7 +444,7 @@ section {
     background: var(--card-bg);
     padding: 2rem;
     border-radius: var(--border-radius);
-    border: 1px solid rgba(0, 212, 255, 0.2);
+    border: 1px solid rgba(128, 0, 0, 0.2);
     transition: var(--transition);
     position: relative;
     overflow: hidden;
@@ -503,13 +503,13 @@ section {
 }
 
 .tag {
-    background: rgba(0, 212, 255, 0.1);
+    background: rgba(128, 0, 0, 0.1);
     color: var(--primary-color);
     padding: 0.25rem 0.75rem;
     border-radius: 20px;
     font-size: 0.8rem;
     font-weight: 500;
-    border: 1px solid rgba(0, 212, 255, 0.3);
+    border: 1px solid rgba(128, 0, 0, 0.3);
 }
 
 /* Join Section */
@@ -610,7 +610,7 @@ section {
     padding: 1.5rem;
     background: var(--card-bg);
     border-radius: var(--border-radius);
-    border: 1px solid rgba(0, 212, 255, 0.2);
+    border: 1px solid rgba(128, 0, 0, 0.2);
     transition: var(--transition);
 }
 
@@ -652,7 +652,7 @@ section {
 
 .tier-card {
     background: var(--card-bg);
-    border: 1px solid rgba(0, 212, 255, 0.2);
+    border: 1px solid rgba(128, 0, 0, 0.2);
     border-radius: var(--border-radius);
     padding: 2rem 1.5rem;
     text-align: center;
@@ -760,7 +760,7 @@ section {
     background: var(--card-bg);
     padding: 2rem;
     border-radius: var(--border-radius);
-    border: 1px solid rgba(0, 212, 255, 0.2);
+    border: 1px solid rgba(128, 0, 0, 0.2);
 }
 
 .form-group {
@@ -780,7 +780,7 @@ section {
     width: 100%;
     padding: 0.75rem;
     background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(0, 212, 255, 0.3);
+    border: 1px solid rgba(128, 0, 0, 0.3);
     border-radius: var(--border-radius);
     color: var(--text-primary);
     font-size: 1rem;
@@ -792,7 +792,7 @@ section {
 .form-group textarea:focus {
     outline: none;
     border-color: var(--primary-color);
-    box-shadow: 0 0 0 3px rgba(0, 212, 255, 0.1);
+    box-shadow: 0 0 0 3px rgba(128, 0, 0, 0.1);
 }
 
 .form-group input::placeholder,
@@ -803,7 +803,7 @@ section {
 /* Footer */
 .footer {
     background: var(--darker-bg);
-    border-top: 1px solid rgba(0, 212, 255, 0.2);
+    border-top: 1px solid rgba(128, 0, 0, 0.2);
     padding: 3rem 0 1rem;
 }
 
@@ -851,7 +851,7 @@ section {
     width: 40px;
     height: 40px;
     background: var(--card-bg);
-    border: 1px solid rgba(0, 212, 255, 0.2);
+    border: 1px solid rgba(128, 0, 0, 0.2);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -870,7 +870,7 @@ section {
 .footer-bottom {
     text-align: center;
     padding-top: 2rem;
-    border-top: 1px solid rgba(0, 212, 255, 0.1);
+    border-top: 1px solid rgba(128, 0, 0, 0.1);
     color: var(--text-muted);
     font-size: 0.9rem;
 }
